@@ -1,4 +1,4 @@
-import { BrowserProps } from "pages/browse";
+import { BrowserProps } from "../pages/browse";
 
 export default [
   {

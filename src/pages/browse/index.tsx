@@ -21,7 +21,7 @@ export type TvShowsRawData = {
   results: TvShowRaw[];
 };
 
-type BrowserProps = {
+export type BrowserProps = {
   popularMoviesSimilar: MoviesComplete[] | TvShowsComplete[];
   topRatedMoviesSimilar: MoviesComplete[] | TvShowsComplete[];
   popularTvShowsSimilar: MoviesComplete[] | TvShowsComplete[];
