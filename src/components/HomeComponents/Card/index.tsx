@@ -48,7 +48,7 @@ export const Card = ({
   const score =
     voteAverage.toFixed(1).toString().replace(".", "") + "% relevante";
 
-  const videoLink = `http://www.youtube-nocookie.com/embed/${videoUrl}?autoplay=1&mute=1&fs=0`;
+  const videoLink = `https://www.youtube-nocookie.com/embed/${videoUrl}?autoplay=1&mute=1&fs=0`;
   const hasVideo = !videoLink.includes("no-url");
 
   const modalData = {
