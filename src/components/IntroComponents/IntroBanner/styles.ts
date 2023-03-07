@@ -50,7 +50,7 @@ export const Wrapper = styled.div`
 
     @media ${theme.media.ltaSmall}{
       > div {
-        height: 548px;
+        height: 556px;
       }
     }
 
