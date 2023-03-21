@@ -7,9 +7,15 @@ import { IntroCard5 } from "components/IntroComponents/IntroCard5";
 import { IntroFooter } from "components/IntroComponents/IntroFooter";
 import { IntroHeader } from "components/IntroComponents/IntroHeader";
 import { IntroSubscription } from "components/IntroComponents/IntroSubscription";
+import { useEffect } from "react";
 import * as Styled from "./styles";
 
 export const SubscribeIntro = () => {
+  useEffect(() => {
+    alert(
+      "Clique em Entrar -> Na próxima página, clique em Entrar -> Para 'deslogar', passe o mouse sobre a imagem do lado superior direito > Sair da Netflix",
+    );
+  }, []);
   return (
     <Styled.Wrapper>
       <IntroBanner />
